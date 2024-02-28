@@ -1,4 +1,3 @@
-//import { getUserById } from "../store/users/thunks";
 
 export const UserDetailItems = ({ userId }) => {
 

@@ -5,11 +5,9 @@ export const userSlice = createSlice({
   initialState: {
     users: [],
     isLoading: false,
-    userId: {},
     albums: [],
     photos: [],
     todos: [],
-    activeTodo: null,
   },
   reducers: {
     startLoadingUsers: (state) => {
